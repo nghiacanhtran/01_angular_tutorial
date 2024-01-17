@@ -7,6 +7,7 @@
    1. .editorconfig là file gì?  
         File chứa các qui tắc định dạng văn bản cho trình soạn thảo, đảm bảo tính nhất quán trong việc định dạng văn bản của toàn dự án.  
     2. Cú pháp cơ bản
+
       | Tên thuộc tính           | Ý nghiax                                            | Value nên dùng            |
       | ------------------------ | --------------------------------------------------- | ------------------------- |
       | charset                  | định dạng (encoding)                                | utf-8                     |
