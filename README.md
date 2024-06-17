@@ -1,7 +1,7 @@
 # angular_tutorial
 1. Cài đặt
    1. [hướng dẫn cài đặt project angular](https://github.com/nghiacanhtran/01_angular_tutorial/blob/main/install_tutorial.md)
-2. Cấu trúc thư mục
+2. [Cấu trúc thư mục](/struct_folder_tutorial.md)
 3. Cách viết một trang html và css trong angular  
    1. Cách viết Html
    2. Cách viết Css
