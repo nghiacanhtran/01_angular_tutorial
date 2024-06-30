@@ -36,7 +36,23 @@
       <https://medium.com/blogk/gitignore-la-gi-no-co-quan-trong-khong-f652da33a804>
 ## angular.json
    ### Giới thiệu
-   - Đây là file cấu hình cho phép chương trình cấu hình cách hoạt động của dự and và cách CLI tạo ra các thành phần của dự án
+   - Đây là file cấu hình cho phép chương trình cấu hình cách hoạt động của dự and và cách CLI tạo ra các thành phần của dự án.Tóm lại là cách cấu hình angular cli.
    ### Main angular.json properties
+      {
+        "$schema": "Được sử dụng để định nghĩa và cấu trúc cho ",
+        "version":  "Phiên bản của angular.json"
+        "newProjectRoot": "Đường dẫn nơi một project mới sẽ được tạo",
+        "projects": "Chứa các cấu hình cho từng dự án hoặc thư viện được sử dụng" -> {
+          "test-project": {
+            "projectType": "Loại dự án là `application` hay `library`",
+            "schematis": "https://blog.angular.dev/schematics-an-introduction-dc1dfbc2a2b2",
+            "root": "Thư mục gốc của dự án,khi để trống có nghĩa là thư mục gốc là thư mục cấp cao nhất của dự án hiện tại"
+            "sourceRoot": "folder chứa code của ứng dụng.Thông thườn là src",
+            "prefix": "tiền tố mà Angular sẽ gắn vào tên file khi tạo các component.Ví dụ `app.component.css` hoặc `app.config.ts`",
+            "architect": ""
+          }
+        }
+      }
    ### Tài liệu tham khảo
-   <https://dev.to/tomwebwalker/angularjson-structure-for-beginners-what-we-can-set-27f3>
+   - <https://dev.to/tomwebwalker/angularjson-structure-for-beginners-what-we-can-set-27f3>
+   - <https://medium.com/nerd-for-tech/what-is-inside-of-angular-json-file-636e81e67651>
