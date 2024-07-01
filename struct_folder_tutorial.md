@@ -49,7 +49,19 @@
             "root": "Thư mục gốc của dự án,khi để trống có nghĩa là thư mục gốc là thư mục cấp cao nhất của dự án hiện tại"
             "sourceRoot": "folder chứa code của ứng dụng.Thông thườn là src",
             "prefix": "tiền tố mà Angular sẽ gắn vào tên file khi tạo các component.Ví dụ `app.component.css` hoặc `app.config.ts`",
-            "architect": ""
+            "architect": "Tập hợp các cấu hình cho việc build project" -> {
+               "build" : "Cấu hình cho ng build" -> {
+                  "builder": "Tên của builder được sử dụng theo cấu trúc `<package-name>:<builder-name>`, builder có thể tìm thấy trong thư mục `\node_modules\angular-devkit`.Ở đây chúng ta dùng `build-angular`",
+                  "option": -> {
+                     "outputPath" : "đường dẫn chứa source code được build ra bởi angular",
+                     "index": "Đường dẫn đến file html root",
+                     "browser":"",
+                     "polyfills": "",
+                     "tsConfig":"Chứa cấu hình cho typescript",
+                     "assets": "Chứa đường dẫn tới các nội dung tĩnh."
+                  }
+               }
+            }
           }
         }
       }
